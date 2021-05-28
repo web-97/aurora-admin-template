@@ -27,3 +27,4 @@
 
 ####[prettier](https://prettier.io/docs/en/install.html)
 一个代码格式化工具，需要配合idea插件使用最佳
+cmd+option+shift 格式化代码

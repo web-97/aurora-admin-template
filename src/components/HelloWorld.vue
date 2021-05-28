@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ 888 }}</h1>
+  <h1>hello world</h1>
 
   <p>
     Recommended IDE setup:
@@ -27,7 +27,7 @@
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button @click="count++">count is: {{ count }}</button>
+  <button @click="add">count is: {{ count }}</button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -35,11 +35,17 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "vue";
+import { ref, defineComponent } from 'vue';
+
 export default defineComponent(() => {
   const count = ref(0);
-  console.log(count?.value);
-  return { count };
+  const add = () => {
+    count.value++;
+  };
+  return {
+    count,
+    add,
+  };
 });
 </script>
 
