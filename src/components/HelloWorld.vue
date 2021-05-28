@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ 777 }}</h1>
+  <h1>{{ 888 }}</h1>
 
   <p>
     Recommended IDE setup:
@@ -35,12 +35,11 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from 'vue'
-export default defineComponent( () => {
-    const count = ref(0)
-    return { count }
-  }
-)
+import { ref, defineComponent } from "vue";
+export default defineComponent(() => {
+  const count = ref(0);
+  return { count };
+});
 </script>
 
 <style scoped>
