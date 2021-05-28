@@ -43,6 +43,8 @@
     }
   },
   "lint-staged": {
-    "**/*": "npm run lintFix"
+    "**/*": [
+      "prettier --write ."
+    ]
   }
 }
