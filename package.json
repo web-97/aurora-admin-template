@@ -37,7 +37,12 @@
     "vite": "^2.3.4",
     "vue-tsc": "^0.0.24"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "npm run lintFix"
   }
 }
