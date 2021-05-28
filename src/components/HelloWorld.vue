@@ -38,6 +38,7 @@
 import { ref, defineComponent } from "vue";
 export default defineComponent(() => {
   const count = ref(0);
+  console.log(count?.value);
   return { count };
 });
 </script>

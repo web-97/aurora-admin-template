@@ -10,11 +10,10 @@ import HelloWorld from "./components/HelloWorld.vue";
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld,
-  },
+    HelloWorld
+  }
 });
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
