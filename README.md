@@ -23,8 +23,10 @@
 ##开发记录
 
 ####yarn deploy
+
 使用yarn deploy 与 [GithubPages](https://pages.github.com/) 配合实现部署
 
 ####[prettier](https://prettier.io/docs/en/install.html)
+
 一个代码格式化工具，需要配合idea插件使用最佳
 cmd+option+shift 格式化代码

@@ -1,8 +1,1 @@
-{
-  "extends": [
-    "stylelint-config-prettier",
-    "some-other-config-you-use",
-    "prettier"
-  ],
-  "singleQuote": true
-}
+{  "extends": [    "stylelint-config-prettier",    "some-other-config-you-use",    "prettier"  ],  "singleQuote": true}

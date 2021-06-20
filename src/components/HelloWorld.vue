@@ -40,6 +40,7 @@ import { ref, defineComponent } from 'vue';
 export default defineComponent(() => {
   const count = ref(0);
   const add = () => {
+    console.log(count?.value);
     count.value++;
   };
   return {
